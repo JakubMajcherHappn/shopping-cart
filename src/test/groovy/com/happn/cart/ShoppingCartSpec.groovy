@@ -32,7 +32,7 @@ class ShoppingCartSpec extends Specification {
 //            thrown(ProductIsNotInTheShoppingCartError)
     }
 
-    def "shopping cart is cached with correect amount of money and cleared"() {
+    def "shopping cart is cashed with correct amount of money and cleared"() {
         given: "a shopping cart"
         when: "the shopping cart is cashed with correct amount of money"
         then: "the shopping cart is cleared"
